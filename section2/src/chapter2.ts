@@ -17,7 +17,7 @@ let doubleArr: number[][] = [
 ]
 
 // 튜플 타입 (자바스크립트에는 없고, 타입스크립트에만 있는 타입)
-// 길이와 타입이 고정된 배열
+// ** 길이와 타입이 고정된 배열
 let tup1: [number, number] = [1, 2];
 // [X] tup1 = [1,2,3];
 // [X] tup1 = ["hello", "world"];
@@ -27,8 +27,8 @@ let tup2: [number, string, boolean] = [1, "hello", true];
 // [X] tup2 = ["ie", 1, true]; 
 
 // 배열 메소드를 사용할 때는, 길이 제한이 발동하지 않아 오류 발생하지 않음
-// 고정된 배열이어도 push, pop 등의 메소드 사용가능
-// 튜블에서 배열 메소드 사용시 주의 필요
+// 고정된 배열이어도 push, pop 등의 배열메소드 사용가능
+// 튜플에서 배열 메소드 사용시 주의 필요
 tup1.push(1);
 tup1.pop();
 tup1.pop();
